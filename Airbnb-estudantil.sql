@@ -1,8 +1,7 @@
--- Criar o banco de dados
 CREATE DATABASE novo_airbnb;
 USE novo_airbnb;
 
--- Tabela: usuarios
+
 CREATE TABLE usuarios (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -11,7 +10,7 @@ CREATE TABLE usuarios (
     data_criacao DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- Tabela: lugares
+
 CREATE TABLE lugares (
     id_lugar INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -23,7 +22,7 @@ CREATE TABLE lugares (
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario) ON DELETE CASCADE
 );
 
--- Tabela: hospedagens
+
 CREATE TABLE hospedagens (
     id_hospedagem INT AUTO_INCREMENT PRIMARY KEY,
     id_usuario INT NOT NULL,
@@ -34,7 +33,7 @@ CREATE TABLE hospedagens (
     FOREIGN KEY (id_lugar) REFERENCES lugares(id_lugar) ON DELETE CASCADE
 );
 
--- Tabela: avaliacoes
+
 CREATE TABLE avaliacoes (
     id_avaliacao INT AUTO_INCREMENT PRIMARY KEY,
     id_usuario INT NOT NULL,
