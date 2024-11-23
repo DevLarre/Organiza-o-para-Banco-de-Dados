@@ -1,5 +1,5 @@
 
-# 🌟 Sistema de Banco de Dados para Novo Airbnb 🌟
+# 🌟 Sistema de Banco de Dados para Novo Airbnb (Estudantil)🌟
 
 Este projeto descreve como organizar o banco de dados inicial para um sistema similar ao Airbnb. O objetivo é atender aos requisitos de gerenciamento de usuários, lugares, hospedagens e avaliações.
 
