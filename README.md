@@ -61,7 +61,7 @@ O banco de dados é modelado para permitir que:
 
 ---
 
-![alt text](organograma-1.png)
+![alt text](![organograma-1](https://github.com/user-attachments/assets/653ba161-dc38-4f40-9a2b-5648608eb959))
 
 ## 🚀 Como Acessar
 
